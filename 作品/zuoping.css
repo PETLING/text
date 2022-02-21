@@ -1,0 +1,274 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: linear-gradient(100deg, #e0c3fc 0%, #fca7b3 100%);
+	font-family: "bodoni mt";
+	height: 1000px;
+}
+
+header main aside footer {
+	width: 100%;
+	height: 100%;
+}
+
+
+nav {
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 0 10px 9px whitesmoke;
+	cursor: cell;
+}
+
+.hezi {
+	width: 80px;
+	position: absolute;
+	top: 0;
+	left: 1180px;
+}
+
+ul {
+	font-size: 20px;
+}
+
+ul li:hover {
+	list-style-type: square;
+	background: #ADD8E6;
+}
+
+#left {
+	width: 1263px;
+	height: 1064px;
+	position: absolute;
+	left: 0;
+	background: url(游戏2.png) no-repeat;
+}
+
+ol li {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	cursor: default;
+}
+
+
+a {
+	text-decoration: none;
+	color: palegreen;
+}
+
+.xo {
+	border: 5px #000000;
+	border-radius: 4px;
+	/* transform: translate(0%, 0%) rotate3d(0,0,0, 0deg); */
+	transition: 3s;
+}
+/* 
+.::before,
+.::after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+.::before {
+	top: 0;
+	left: 0;
+	border-top: 4px solid #bababa;
+	border-left: 4px solid #bababa;
+} */
+
+.xo:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+	/* transform: translate(10%, 0%) rotate3d(0,1,0, 180deg); */
+}
+
+p {
+	font-size: smaller;
+	color: rgba(231, 189, 235, 0.8);
+	cursor: default;
+}
+
+.aa {
+	opacity: 0;
+	font-size: large;
+	width: 170px;
+	height: 80px;
+}
+
+.aa:hover {
+	width: 170px;
+	height: 80px;
+	opacity: 1;
+	text-shadow: 0 1px 10px whitesmoke;
+	cursor: default;
+}
+
+span {
+	/* color: rgba(77, 77, 77, 0.8); */
+	color: aliceblue;
+}
+
+.pa {
+	width: 50px;
+	height: 240px;
+	background: rgb(226, 218, 243);
+	position: fixed;
+	right: 1px;
+	bottom: 130px;
+	box-shadow: -6px 8px 9px #878787;
+}
+
+#na {
+	display: inline-block;
+	width: 50px;
+	cursor: pointer;
+}
+
+#right {
+	position: absolute;
+	top: 133px;
+	left: 700px;
+}
+
+.za {
+	background: url(游戏4.jpeg) no-repeat;
+	transform: translate(0, 0);
+	opacity: 0;
+	cursor: default;
+}
+
+.za:hover {
+	background: url(游戏4.jpeg) no-repeat;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.i {
+	position: absolute;
+	left: 44px;
+	top: 430px;
+	color: beige;
+}
+
+.a {
+	border-radius: 12px;
+	color: #ff793f;
+	cursor: pointer;
+}
+
+.a:hover {
+	background-color: #ffc4ff;
+	color: #764539;
+	opacity: 0.4;
+}
+
+.a:active {
+	background-color: #c7d6ff;
+	color: #ff793f;
+	opacity: 0.4;
+}
+
+.b {
+	position: absolute;
+	left: 44px;
+	top: 630px;
+	color: beige;
+	cursor: auto;
+}
+
+.right {
+	width: 400px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	bottom: -450px;
+	left: 40px;
+}
+
+.box {
+	display: inline-block;
+	width: 80px;
+	opacity: 0.5;
+}
+
+.box:hover {
+	opacity: 1;
+}
+
+.xx {
+	border: 2px solid lavender;
+	border-radius: 4px;
+	/* transform: translate(0%, 0%) rotate3d(0,0,0, 360deg); */
+	transform: translate(0%, 0%) rotate(0, 0);
+	transition: 7s;
+}
+
+.xx:hover {
+	/* transform: translate(-45%, 0%) rotate3d(1,2,0, 360deg); */
+	transform: translate(-45%, 0%) rotate(-360deg);
+}
+
+.pp {
+	font-size: 20px;
+	position: absolute;
+	bottom: -585px;
+}
+
+.bb {
+	width: 170px;
+	height: 40px;
+	border-radius: 10px;
+	border-bottom: 1px solid snow;
+	border-left: 1px solid snow;
+	border-right: 1px solid snow;
+	transition: background-color 500ms ;
+}
+
+.bb:hover{
+	animation-name: cc;
+	background-color: aqua;
+	animation-duration: 2.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes cc{
+	0%{
+		border: 1px solid snow;
+		background-color: greenyellow;
+	}
+	30%{
+		transform: rotate();
+		border: 2px solid darksalmon;
+		background-color: aquamarine;
+	}
+	60%{
+		border: 3px solid powderblue;
+		background-color: skyblue;
+	}
+	90%{
+		border: 4px solid coral;
+		background-color: orange;
+	}
+	120%{
+		border: 3px solid navajowhite;
+		background-color: ghostwhite;
+	}
+	150%{
+		border: 2px solid lightgray;
+	}
+	180%{
+		border: 1px solid skyblue;
+	}
+}
+
+.c {
+	font-size: 20px;
+	color: #F0F8FF;
+	text-indent: 2em;
+	z-index: -1;
+}
